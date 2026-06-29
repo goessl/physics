@@ -28,6 +28,9 @@ theme:
         icon: material/brightness-7
         name: Switch to system preference
 
+hooks:
+  - gen.py
+
 plugins:
   - search
 
@@ -45,6 +48,7 @@ markdown_extensions:
       generic: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - tables
 
 extra_javascript:
   - mathjax.js
@@ -52,3 +56,4 @@ extra_javascript:
 
 nav:
   - index.md
+  - bibliography.md
